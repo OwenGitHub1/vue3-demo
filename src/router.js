@@ -1,9 +1,7 @@
 import { createWebHistory, createWebHashHistory, createRouter } from "vue-router";
-import Home from '#/home.vue'
 
 const routes = [
-  // { path: '/', component: () => import('#/home') },
-  { path: '/', component: Home },
+  { path: '/', name: '首页' , component: () => import('#/home.vue') },
 ]
 
 const router = createRouter({
