@@ -1,16 +1,12 @@
-<template>
-
-</template>
+<template></template>
 
 <script setup>
-import { ref, reactive } from 'vue'
+import { ref, reactive } from 'vue';
 const dialogVisible = !userInfo.isLogin;
-const userInfo = reactive({isLogin: false, password:''})
+const userInfo = reactive({ isLogin: false, password: '' });
 
 return {
   dialogVisible,
-  userInfo
-}
-
-
+  userInfo,
+};
 </script>

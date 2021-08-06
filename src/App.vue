@@ -2,8 +2,7 @@
   <router-view></router-view>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

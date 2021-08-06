@@ -1,0 +1,9 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "vetur.validation.template": false,
+  "eslint.validate": [
+    { "language": "javascript", "autoFix": true },
+    { "language": "typescript", "autoFix": true },
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
